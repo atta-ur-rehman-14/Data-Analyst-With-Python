@@ -3,7 +3,7 @@
 <div>
 
 
-> — **Ayan Hussain** · Data Analytics Instructor · Saylani Welfare
+> —  *Saylani Welfare*
 
 </div>
 
