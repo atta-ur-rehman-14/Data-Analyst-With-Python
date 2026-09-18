@@ -1,44 +1,24 @@
 # Week-01
 
-This folder contains all the files and notebooks for **Week 01** of the Data Analyst with Python course.
+Files in this folder:
 
----
+| File | Description |
+|------|-------------|
+| `Class-01.ipynb` | Hello World, print(), variables, data types (int, float, str, bool). |
+| `Class-01.py` | Basic print() examples. |
+| `Class-02.ipynb` | print formatting (\n, \t, end), bitwise operators, arithmetic / logical / assignment operators, input(), type conversion, and lists. |
 
-## 📁 Files
+## Topics
 
-| File | Type | Description |
-|------|------|-------------|
-| `Class-01.ipynb` | Jupyter Notebook | Introduces basic Python concepts: printing text, variables, data types (int, float, string, bool), and the `type()` function. |
-| `Class-01.py` | Python Script | A small standalone script demonstrating basic `print()` usage (e.g., printing "Hello World!", a number, and a name). |
-| `Class-02.ipynb` | Jupyter Notebook | Covers formatted printing (`\n`, `\t`, `end`), bitwise operators, arithmetic / logical / assignment operators, `input()`, data type conversion, and an introduction to lists. |
+- **Class-01:** print, variables, data types, `type()`
+- **Class-02:** `print(\n, \t, end)`, bitwise operators, arithmetic, comparison, logical (and/or/not), assignment, `input()`, type conversion, list introduction
 
----
-
-## 📝 What You'll Learn
-
-- **Printing & Formatting** — Using `print()` with newlines, tab spaces, and custom endings.
-- **Variables & Data Types** — Storing data and understanding `int`, `float`, `str`, and `bool`.
-- **Operators** — Arithmetic, bitwise, logical, and assignment operators.
-- **User Input** — Taking input from the user and converting data types (`int`, `str`).
-- **Lists** — Creating and accessing ordered collections of values.
-
----
-
-## ▶️ Running the Notebooks
-
-Open any `.ipynb` file in **Jupyter Notebook** or **JupyterLab**:
+## Run
 
 ```bash
 cd Module-01/Week-01
-jupyter notebook
-```
-
-Or run the Python script directly:
-
-```bash
+jupyter notebook Class-01.ipynb   # or Class-02.ipynb
 python Class-01.py
 ```
 
----
-
-*Week 01 — Introduction to Python Fundamentals*
+Week 01 — Python basics.
