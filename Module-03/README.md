@@ -195,3 +195,36 @@ LEFT JOIN employees AS m
 | RIGHT JOIN  | All rows from right + matching rows from left    | `NULL` (left columns)      |
 | FULL JOIN   | All rows from both tables                        | `NULL` on the missing side |
 | Self Join   | A table joined with itself                       | Depends on join type used  |
+
+#  UNION operator
+- SQL Server UNION is one of the set operations that allow you to combine results of two SELECT statements into a single result set which includes all the rows that belong to the SELECT statements in the union.
+
+#### Syntax
+```
+query_1
+UNION
+query_2
+
+```
+- The following are requirements for the queries in the syntax above:
+
+1. The number and the order of the columns must be the same in both queries.
+2. The data types of the corresponding columns must be the same or compatible.
+
+![UNION](image-1.png)
+
+# UNION vs. UNION ALL 
+- By default, the UNION operator removes all duplicate rows from the result sets. However, if you want to retain the duplicate rows, you need to specify the ALL keyword is explicitly as shown below:
+
+#### Syntax
+
+```
+query_1
+UNION ALL
+query_2
+```
+# UNION vs. JOIN
+- The join such as INNER JOIN or LEFT JOIN combines columns from two tables while the UNION combines rows from two queries.
+
+- In other words, join appends the result sets horizontally while union appends the result set vertically.
+![UNION vs. JOIN](image.png)
