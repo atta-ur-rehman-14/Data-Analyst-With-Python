@@ -1,3 +1,0 @@
--- CTE (Common Table Expressions)
--- A CTE provides a temporary named result set that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement.
--- CTEs improve readability and can be used for recursive queries.
